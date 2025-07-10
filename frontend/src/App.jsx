@@ -8,7 +8,7 @@ export default function App() {
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <img src="/vite.svg" alt="Logo" className="w-8 h-8" />
+            <img src="/hrimmfavicon.ico" alt="Hrimm favicon" className="w-8 h-8" />
             <span className="text-xl font-bold text-indigo-600">hrimm</span>
           </div>
           <nav className="hidden md:flex space-x-8">
@@ -23,7 +23,7 @@ export default function App() {
         {activeTab === "home" && (
           <section className="py-20 bg-white">
             <div className="container mx-auto px-4 text-center">
-              <img src="/vite.svg" alt="hrimm Logo" className="mx-auto w-24 h-24 mb-6" />
+              <img src="/hrimmlogo.svg" alt="hrimm Logo" className="mx-auto w-24 h-24 mb-6" />
               <h1 className="text-4xl font-bold text-gray-900 mb-4">Welcome to hrimm</h1>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 Connecting healthcare professionals and AI innovators through dynamic events and networking.
